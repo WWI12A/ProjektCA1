@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://wwi12-02.dhbw-heidenheim.de/login/$1 [R=301,L]
